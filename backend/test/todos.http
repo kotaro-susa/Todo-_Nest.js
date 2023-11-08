@@ -1,0 +1,24 @@
+### GET Request
+GET http://localhost:3000/todo
+
+### 1件追加
+POST http://localhost:3000/todo
+Content-Type: application/json
+
+{
+  "title": "test",
+  "status": "waiting"
+}
+
+### PUT Request
+PUT http://localhost:3000/todo
+Content-type:application/json
+
+{
+    "id":"33711c20-9e3b-4d9a-bbc3-086835b64f4a",
+    "title":"test update",
+    "status":"done"
+}
+
+###DELETE Request
+DELETE http://localhost:3000/todo/33711c20-9e3b-4d9a-bbc3-086835b64f4a
